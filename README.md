@@ -9,6 +9,7 @@ If a reported or known Minecraft RTX issue is missing from this list in particul
 These issues have been reported on Mojira, regardless of confirmation status, they remain unresolved. (Sorted based on severity, from highest to lowest).
 
 - [MCPE-194207](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194207) - Placing or breaking blocks causes surrounding blocks to flicker with Ray Tracing enabled
+- [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
 - [MCPE-194870](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194870) - Most entity textures appear completely black with Ray Tracing
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
@@ -67,6 +68,7 @@ These issues have been reported on Mojira, regardless of confirmation status, th
 - [MCPE-69351](https://bugs.mojang.com/browse/MCPE/issues/MCPE-69351) - Hand and held items become disjointed from the body at high FOV with RTX enabled
 - [MCPE-151923](https://bugs.mojang.com/browse/MCPE/issues/MCPE-151923) - Frog spawn renders incorrectly with Ray Tracing on
 - [MCPE-95662](https://bugs.mojang.com/browse/MCPE/issues/MCPE-95662) - Reloading Minecraft causes mobs' body parts to swap around
+- [MCPE-240625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240625) - Hoppers inside minecarts use the entire texture atlas instead of a single texture in ray-traced graphics mode, also filed as MCPE-241124
 
 ## 🟧 Mojang Won't Fix
 
@@ -81,18 +83,17 @@ Mojang has been made aware of these issues and has explicitly decided they will 
 
 ## 🟨 Fixed by Vanilla RTX
 
-These issues are unresolved, but have fortunately been worked around through other means.
+These issues are also unresolved, but have fortunately been worked around through other means.
 
 - [MCPE-191513](https://bugs.mojang.com/browse/MCPE/issues/MCPE-191513) - Ray Tracing can no longer be enabled from the main menu, only from within a loaded world (worked around by the Vanilla RTX App)
 - [MCPE-152158](https://bugs.mojang.com/browse/MCPE/issues/MCPE-152158) - PBR textures don't load properly, leaving every block shiny, when Ray Tracing is enabled right after a fresh game launch (worked around by the Vanilla RTX App)
 - [MCPE-121850](https://bugs.mojang.com/browse/MCPE/issues/MCPE-121850) - Ray Tracing suffers severe performance starvation when the game's VSync is enabled (worked around by the Vanilla RTX App)
-- [MCPE-227624](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227624) - All lantern types, torches, and the end rod no longer have point lights with Ray Tracing
+- [MCPE-227624](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227624) - Point lights have been unintentionally removed from several light sources in ray tracing graphics mode - lanterns, torches, and the end rod among them (still impacts some blocks even with Vanilla RTX's workaround)
 - [MCPE-183631](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183631) - The Breeze's wind texture doesn't animate with Ray Tracing, appearing completely black instead
 - [MCPE-141530](https://bugs.mojang.com/browse/MCPE/issues/MCPE-141530) - Wither visuals don't function properly with Ray Tracing
 - [MCPE-157438](https://bugs.mojang.com/browse/MCPE/issues/MCPE-157438) - The Warden renders incorrectly with Ray Tracing
 - [MCPE-111414](https://bugs.mojang.com/browse/MCPE/issues/MCPE-111414) - Villagers are displayed differently with RTX
 - [MCPE-121412](https://bugs.mojang.com/browse/MCPE/issues/MCPE-121412) - Doors appear darkened with Ray Tracing on
-- [MCPE-240625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240625) - Hoppers inside minecarts use the entire texture atlas instead of a single texture in ray-traced graphics mode
 - [MCPE-189266](https://bugs.mojang.com/browse/MCPE/issues/MCPE-189266) - Cross-shaped blocks, foliage and crops have widespread rendering errors with Ray Tracing
 - [MCPE-166159](https://bugs.mojang.com/browse/MCPE/issues/MCPE-166159) - Chiseled Bookshelves don't render properly in RTX
 - [MCPE-167161](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167161) - Decorated Pots have Z-fighting issues with Ray Tracing
@@ -103,6 +104,23 @@ These issues are unresolved, but have fortunately been worked around through oth
 - [MCPE-227676](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227676) - The Copper Golem is missing its eyes
 
 Tip: installing a BetterRTX preset will help fix several more issues from the unresolved list (particularly the ones marked as (🟨Fixed in BetterRTX))
+
+### Additional fixes with no Mojira report
+
+These don't have a Mojira ticket to link, so they're just mentioned briefly here.
+
+- Mobs with glowing parts in vanilla Minecraft now glow the same way with Ray Tracing
+- The Invisibility effect now properly hides the Spider, Cave Spider, Phantom, and Enderman models with Ray Tracing
+- Candles now have an emissive wick, since they lack a point light like other light sources do (1.21.80+ only)
+- Tropical fish patterns no longer fail to composite when the fish's base layer is transparent, which was making large parts of their fins invisible
+- Water in a cauldron no longer uses the wrong texture, which gave it a rough, non-water-like appearance
+- Jack o'Lanterns now emit light from all sides, matching their vanilla appearance and function more closely
+- In-world enchanted tridents and firework rockets no longer render completely black
+- The Creaking's eyes now glow with a unique bloom effect and stay visible even while the Creaking itself is invisible; its black texture issues are also resolved
+- Iron Golem texture crack rendering issues have been resolved
+- The Sulfur Cube's rendering issues with Ray Tracing have been resolved
+- Entities and blocks with invisible or unintentionally rasterized parts - the Snow Golem's head, the Mooshroom's mushrooms, and blocks inside minecarts - are corrected (tracked as Vanilla RTX issue #28)
+- Every rasterized particle has been adjusted to blend in with the ray-traced world
 
 ## 🟩 Resolved
 
