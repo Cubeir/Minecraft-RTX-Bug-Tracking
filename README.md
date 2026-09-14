@@ -72,6 +72,7 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-240625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240625) - Hoppers inside minecarts use the entire texture atlas instead of a single texture in ray-traced graphics mode, also filed as MCPE-241124
 - [MCPE-238296](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238296) - When RTX is enabled, all of the texturs might display wrong.
 - [MCPE-238815](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238815) - Sulfur Cube has transparency issues when in water
+- [MCPE-232858](https://bugs.mojang.com/browse/MCPE/issues/MCPE-232858) - Entity dithering (and other accessibility settings) don't work with RTX.
 
 ## 🟧 Mojang Won't Fix
 
@@ -167,6 +168,7 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 - [MCPE-118898](https://bugs.mojang.com/browse/MCPE/issues/MCPE-118898) - Moon lighting originated from the opposite angle underwater at night (fixed in Preview 1.20.0.20)
 - [MCPE-112916](https://bugs.mojang.com/browse/MCPE/issues/MCPE-112916) - Soul torches emitted the wrong colour of light
 - [MCPE-119972](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119972) - Blocks with flipbook textures didn't animate their PBR maps
+- [MCPE-190607](https://bugs.mojang.com/browse/MCPE/issues/MCPE-190607) - DLSS doesn't work on RTX 50000 Series
 
 # Vanilla RTX Bug Tracking
 For issues related to the Vanilla RTX App, Vanilla RTX, or other related projects, visit their respective GitHub repositories and check the issues there.
