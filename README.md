@@ -13,8 +13,10 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
 - [MCPE-183773](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183773) - Entity UV Animations do not work once RTX is enabled.
 - [MCPE-240950](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240950) - Flipbook textures' heightmaps do not render correctly in ray-traced graphics mode
+- [MCPE-241723](https://bugs.mojang.com/browse/MCPE/issues/MCPE-241723) - Animated flipbook textures no longer animate smoothly with ray tracing enabled
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
+- [MCPE-230978](https://bugs.mojang.com/browse/MCPE/issues/MCPE-230978) - Redstone torches always render their alpha channel at full opacity with ray tracing
 - [MCPE-105261](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105261) - Ray Tracing experiences render errors in certain scenes and conditions
 - [MCPE-105028](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105028) - No player shadows or reflections are visible in first person with Ray Tracing
 - [MCPE-119895](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119895) - Glass loses transparency at a distance with Ray Tracing on
@@ -31,6 +33,7 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-141852](https://bugs.mojang.com/browse/MCPE/issues/MCPE-141852) - The irradiance cache occasionally fails to propagate light
 - [MCPE-119900](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119900) - God rays appear in underground water caves despite there being no physical path for light to reach them
 - [MCPE-137580](https://bugs.mojang.com/browse/MCPE/issues/MCPE-137580) - Lava and colored glass emit light inconsistently with RTX
+- [MCPE-237181](https://bugs.mojang.com/browse/MCPE/issues/MCPE-237181) - End Flashes don't work correctly with ray tracing
 - [MCPE-118768](https://bugs.mojang.com/browse/MCPE/issues/MCPE-118768) - The Light Block does not function with RTX
 - [MCPE-115674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-115674) - Dyeable items render as white with Ray Tracing enabled
 - [MCPE-119887](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119887) - Entities on featured servers are completely black with Ray Tracing on
@@ -67,6 +70,8 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-151923](https://bugs.mojang.com/browse/MCPE/issues/MCPE-151923) - Frog spawn renders incorrectly with Ray Tracing on
 - [MCPE-95662](https://bugs.mojang.com/browse/MCPE/issues/MCPE-95662) - Reloading Minecraft causes mobs' body parts to swap around
 - [MCPE-240625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240625) - Hoppers inside minecarts use the entire texture atlas instead of a single texture in ray-traced graphics mode, also filed as MCPE-241124
+- [MCPE-238296](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238296) - When RTX is enabled, all of the texturs might display wrong.
+- [MCPE-238815](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238815) - Sulfur Cube has transparency issues when in water
 
 ## 🟧 Mojang Won't Fix
 
@@ -100,6 +105,8 @@ These issues are also unresolved, but have fortunately been worked around throug
 - [MCPE-180359](https://bugs.mojang.com/browse/MCPE/issues/MCPE-180359) - The Soul Torch does not have a point light in ray-traced graphics mode
 - [MCPE-183629](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183629) - The XP orb's broken UV animation makes it always appear small
 - [MCPE-227676](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227676) - The Copper Golem is missing its eyes
+- [MCPE-232873](https://bugs.mojang.com/browse/MCPE/issues/MCPE-232873) - Iron Golem cracked texture rapidly flickers in Ray Traced graphics mode
+
 
 Tip: installing a BetterRTX preset will also help fix several more issues from the unresolved list (particularly the ones marked as (🟨Fixed in BetterRTX))
 
@@ -159,7 +166,7 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 - [MCPE-97466](https://bugs.mojang.com/browse/MCPE/issues/MCPE-97466) - The thumbnail image for a saved world was not taken with Ray Tracing (fixed in Preview 1.20.10.20)
 - [MCPE-118898](https://bugs.mojang.com/browse/MCPE/issues/MCPE-118898) - Moon lighting originated from the opposite angle underwater at night (fixed in Preview 1.20.0.20)
 - [MCPE-112916](https://bugs.mojang.com/browse/MCPE/issues/MCPE-112916) - Soul torches emitted the wrong colour of light
-- [MCPE-119972](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119972) - Blocks with flipbook textures didn't animate their PBR maps (could not be reproduced by Mojang)
+- [MCPE-119972](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119972) - Blocks with flipbook textures didn't animate their PBR maps
 
 # Vanilla RTX Bug Tracking
 For issues related to the Vanilla RTX App, Vanilla RTX, or other related projects, visit their respective GitHub repositories and check the issues there.
