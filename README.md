@@ -17,6 +17,7 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
 - [MCPE-230978](https://bugs.mojang.com/browse/MCPE/issues/MCPE-230978) - Redstone torches always render their alpha channel at full opacity with ray tracing
+- [MCPE-227473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227473) - Underwater torch lacks point light (Education Edition)
 - [MCPE-105261](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105261) - Ray Tracing experiences render errors in certain scenes and conditions
 - [MCPE-105028](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105028) - No player shadows or reflections are visible in first person with Ray Tracing
 - [MCPE-119895](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119895) - Glass loses transparency at a distance with Ray Tracing on
@@ -73,6 +74,7 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-238296](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238296) - When RTX is enabled, all of the texturs might display wrong.
 - [MCPE-238815](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238815) - Sulfur Cube has transparency issues when in water
 - [MCPE-232858](https://bugs.mojang.com/browse/MCPE/issues/MCPE-232858) - Entity dithering (and other accessibility settings) don't work with RTX.
+- [MCPE-194473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194473) - Stars are not anti-aliased with RTX
 
 ## 🟧 Mojang Won't Fix
 
@@ -169,6 +171,7 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 - [MCPE-112916](https://bugs.mojang.com/browse/MCPE/issues/MCPE-112916) - Soul torches emitted the wrong colour of light
 - [MCPE-119972](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119972) - Blocks with flipbook textures didn't animate their PBR maps
 - [MCPE-190607](https://bugs.mojang.com/browse/MCPE/issues/MCPE-190607) - DLSS doesn't work on RTX 50000 Series
+- [MCPE-167902](https://bugs.mojang.com/browse/MCPE/issues/MCPE-190607) - Particles are always at maximum brightness with RTX
 
 # Vanilla RTX Bug Tracking
 For issues related to the Vanilla RTX App, Vanilla RTX, or other related projects, visit their respective GitHub repositories and check the issues there.
