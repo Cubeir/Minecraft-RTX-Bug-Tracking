@@ -6,16 +6,14 @@ If a reported or known Minecraft RTX issue is missing from this list in particul
 
 ## 🟥 Unresolved
 
-These issues have been reported on Mojira, regardless of confirmation status, they remain unresolved. (Sorted based on severity, from highest to lowest).
+These issues have been reported on Mojira, regardless of confirmation status, they remain unresolved. (Sorted based on severity, from highest to lowest).  
+You will need to login or create a new Mojira account to be able to vote.
 
 - [MCPE-194207](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194207) - Placing or breaking blocks causes surrounding blocks to flicker with Ray Tracing enabled
 - [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
-- [MCPE-194870](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194870) - Most entity textures appear completely black with Ray Tracing
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
-- [MCPE-140674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-140674) - Some devices that support RTX are occasionally marked as unsupported
 - [MCPE-105261](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105261) - Ray Tracing experiences render errors in certain scenes and conditions
-- [MCPE-166846](https://bugs.mojang.com/browse/MCPE/issues/MCPE-166846) - RTX textures can load incorrectly
 - [MCPE-105028](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105028) - No player shadows or reflections are visible in first person with Ray Tracing
 - [MCPE-119895](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119895) - Glass loses transparency at a distance with Ray Tracing on
 - [MCPE-119941](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119941) - Transparent parts of an entity's texture stop particles from rendering behind them
@@ -124,7 +122,7 @@ These don't have a Mojira ticket to link, so they're just mentioned briefly here
 
 ## 🟩 Resolved
 
-These issues should no longer happen in the most recent versions of Minecraft.
+These issues should no longer happen in the most recent versions of Minecraft, but there is always a chance they might return if Mojang runs out of ideas to add bugs.
 
 - [MCPE-162107](https://bugs.mojang.com/browse/MCPE/issues/MCPE-162107) - Loading an RTX resource pack crashed the game (fixed in Preview 1.19.70.26)
 - [MCPE-152645](https://bugs.mojang.com/browse/MCPE/issues/MCPE-152645) - The engine switched to DX11 after quitting a world with RTX on, disabling DXR (fixed in Hotfix 1.18.31)
@@ -134,6 +132,9 @@ These issues should no longer happen in the most recent versions of Minecraft.
 - [MCPE-113380](https://bugs.mojang.com/browse/MCPE/issues/MCPE-113380) - High-res resource packs fell back incorrectly on Beta and Stable even on supported hardware (fixed in Hotfix 1.19.81)
 - [MCPE-135157](https://bugs.mojang.com/browse/MCPE/issues/MCPE-135157) - RTX had dark spots everywhere and light failed to spread from most blocks (fixed in Beta 1.17.30.22)
 - [MCPE-163622](https://bugs.mojang.com/browse/MCPE/issues/MCPE-163622) - Albedo colour arrays in texture sets displayed as completely black (fixed in Preview 1.19.60.20)
+- [MCPE-194870](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194870) - Most entity textures appear completely black with Ray Tracing
+- [MCPE-140674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-140674) - Some devices that support RTX are occasionally marked as unsupported
+- [MCPE-166846](https://bugs.mojang.com/browse/MCPE/issues/MCPE-166846) - RTX textures can load incorrectly
 - [MCPE-166947](https://bugs.mojang.com/browse/MCPE/issues/MCPE-166947) - All RTX point lights were white (fixed in Preview 1.19.80.20)
 - [MCPE-162445](https://bugs.mojang.com/browse/MCPE/issues/MCPE-162445) - Night behaved like day with Ray Tracing (fixed in Hotfix 1.19.41)
 - [MCPE-156577](https://bugs.mojang.com/browse/MCPE/issues/MCPE-156577) - Player skins turned black with Ray Tracing (fixed in Preview 1.19.20.23)
