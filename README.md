@@ -11,6 +11,8 @@ You will need to login or create a new Mojira account to be able to vote.
 
 - [MCPE-194207](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194207) - Placing or breaking blocks causes surrounding blocks to flicker with Ray Tracing enabled
 - [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
+- [MCPE-183773](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183773) - Entity UV Animations do not work once RTX is enabled.
+- [MCPE-240950](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240950) - Flipbook textures' heightmaps do not render correctly in ray-traced graphics mode
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
 - [MCPE-105261](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105261) - Ray Tracing experiences render errors in certain scenes and conditions
@@ -38,12 +40,10 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-136281](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136281) - Maps and items placed in Glow Item Frames don't emit light with Ray Tracing on
 - [MCPE-71754](https://bugs.mojang.com/browse/MCPE/issues/MCPE-71754) - Emissive blocks don't emit light while held with Ray Tracing
 - [MCPE-117722](https://bugs.mojang.com/browse/MCPE/issues/MCPE-117722) - Conduit PBR textures do not load
-- [MCPE-183630](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183630) - A Conduit's active wind and particle animation becomes invisible when Ray Tracing is enabled
 - [MCPE-219635](https://bugs.mojang.com/browse/MCPE/issues/MCPE-219635) - Marketplace packs override all other texture packs when used with Ray Tracing or Vibrant Visuals
-- [MCPE-240950](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240950) - Flipbook textures' heightmaps do not render correctly in ray-traced graphics mode
 - [MCPE-181917](https://bugs.mojang.com/browse/MCPE/issues/MCPE-181917) - The world thumbnail shows the player's hand and held items when Ray Tracing is enabled
-- [MCPE-139002](https://bugs.mojang.com/browse/MCPE/issues/MCPE-139002) - The bow is darkened when Ray Tracing is on
-- [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing
+- [MCPE-139002](https://bugs.mojang.com/browse/MCPE/issues/MCPE-139002) - Bows are darkened when Ray Tracing is on  (🟨Fixed in BetterRTX)
+- [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing (🟨Fixed with a custom LUT preset from [the app](https://github.com/Cubeir/Vanilla-RTX-App/))
 - [MCPE-104310](https://bugs.mojang.com/browse/MCPE/issues/MCPE-104310) - The sky occasionally becomes multicoloured with Ray Tracing on (Mojang could not reproduce, but reports continue)
 - [MCPE-126983](https://bugs.mojang.com/browse/MCPE/issues/MCPE-126983) - Blocks on the edge of clouds cause graphical glitches with Ray Tracing
 - [MCPE-159473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-159473) - Some areas of the world render incorrectly with Ray Tracing when Render Clouds is on
