@@ -176,10 +176,10 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 # Vanilla RTX Bug Tracking
 For issues related to the Vanilla RTX App, Vanilla RTX, or other related projects, visit their respective GitHub repositories and check the issues there.
 
-- [Vanilla RTX Issues](https://github.com/Cubeir/Vanilla-RTX/issues)
+- [Vanilla RTX – Issues](https://github.com/Cubeir/Vanilla-RTX/issues)
 
-- [Vanilla RTX App & RTX Reactor Issues](https://github.com/Cubeir/Vanilla-RTX-App/issues)
+- [Vanilla RTX App & RTX Reactor – Issues](https://github.com/Cubeir/Vanilla-RTX-App/issues)
 
-- [Vanilla RTX Add-ons & Extras Issues](https://github.com/Cubeir/Vanilla-RTX-Extras/issues)
+- [Vanilla RTX Add-ons & Extras – Issues](https://github.com/Cubeir/Vanilla-RTX-Extras/issues)
 
-You may also report issues directly through the [Vanilla RTX Discord server](https://discord.gg/A4wv4wwYud).
+You may also report issues directly through the [Vanilla RTX Discord server's](https://discord.gg/A4wv4wwYud) forum channel.
