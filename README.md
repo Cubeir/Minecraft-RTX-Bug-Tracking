@@ -101,7 +101,7 @@ These issues are also unresolved, but have fortunately been worked around throug
 - [MCPE-183629](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183629) - The XP orb's broken UV animation makes it always appear small
 - [MCPE-227676](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227676) - The Copper Golem is missing its eyes
 
-Tip: installing a BetterRTX preset will help fix several more issues from the unresolved list (particularly the ones marked as (🟨Fixed in BetterRTX))
+Tip: installing a BetterRTX preset will also help fix several more issues from the unresolved list (particularly the ones marked as (🟨Fixed in BetterRTX))
 
 ### Additional fixes with no Mojira report
 
