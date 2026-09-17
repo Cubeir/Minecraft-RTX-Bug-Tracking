@@ -7,7 +7,7 @@ If a reported or known Minecraft RTX issue is missing from this list in particul
 ## 🟥 Unresolved
 
 These issues have been reported on Mojira, regardless of confirmation status, they remain unresolved. (Sorted based on severity, from highest to lowest).  
-You will need to login or create a new Mojira account to be able to vote.
+You will need to login or create an account to be able to vote.
 
 - [MCPE-194207](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194207) - Placing or breaking blocks causes surrounding blocks to flicker with Ray Tracing enabled
 - [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
@@ -70,7 +70,6 @@ You will need to login or create a new Mojira account to be able to vote.
 - [MCPE-69351](https://bugs.mojang.com/browse/MCPE/issues/MCPE-69351) - Hand and held items become disjointed from the body at high FOV with RTX enabled
 - [MCPE-151923](https://bugs.mojang.com/browse/MCPE/issues/MCPE-151923) - Frog spawn renders incorrectly with Ray Tracing on
 - [MCPE-95662](https://bugs.mojang.com/browse/MCPE/issues/MCPE-95662) - Reloading Minecraft causes mobs' body parts to swap around
-- [MCPE-240625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240625) - Hoppers inside minecarts use the entire texture atlas instead of a single texture in ray-traced graphics mode, also filed as MCPE-241124
 - [MCPE-238296](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238296) - When RTX is enabled, all of the texturs might display wrong.
 - [MCPE-238815](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238815) - Sulfur Cube has transparency issues when in water
 - [MCPE-232858](https://bugs.mojang.com/browse/MCPE/issues/MCPE-232858) - Entity dithering (and other accessibility settings) don't work with RTX.
@@ -158,6 +157,7 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 - [MCPE-159488](https://bugs.mojang.com/browse/MCPE/issues/MCPE-159488) - Lanterns and end rods had randomly positioned point lights (fixed in Preview 1.19.40.24)
 - [MCPE-167638](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167638) - Sign text didn't show with RTX on (fixed in Hotfix 1.19.71)
 - [MCPE-167551](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167551) - The block outline didn't show with RTX on (fixed in Hotfix 1.19.71)
+- [MCPE-240625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240625) - Hoppers inside minecarts use the entire texture atlas instead of a single texture in ray-traced graphics mode
 - [MCPE-126617](https://bugs.mojang.com/browse/MCPE/issues/MCPE-126617) - PBR textures didn't work when using texture variations (fixed in Preview 1.21.50.24)
 - [MCPE-124562](https://bugs.mojang.com/browse/MCPE/issues/MCPE-124562) - PBR textures loaded incorrectly when toggling full screen (fixed in Beta 1.17.0.56)
 - [MCPE-159471](https://bugs.mojang.com/browse/MCPE/issues/MCPE-159471) - Heightmap edges were no longer seamless when padding was set to 0 (fixed in Preview 1.19.20.24)
