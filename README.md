@@ -17,6 +17,7 @@ You will need to login or create an account to be able to vote.
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
 - [MCPE-230978](https://bugs.mojang.com/browse/MCPE/issues/MCPE-230978) - Redstone torches always render their alpha channel at full opacity with ray tracing
+- [MCPE-242595](https://bugs.mojang.com/browse/MCPE/issues/MCPE-242595) - Entities appear glossy with ray tracing because they use a wrong fallback PBR material.
 - [MCPE-227473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227473) - Underwater torch lacks point light (Education Edition)
 - [MCPE-105261](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105261) - Ray Tracing experiences render errors in certain scenes and conditions
 - [MCPE-105028](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105028) - No player shadows or reflections are visible in first person with Ray Tracing
