@@ -4,6 +4,14 @@ The issues are listed based on priority, if an issue you've encountered is missi
 
 If a reported or known Minecraft RTX issue is missing from this list in particular, a bug is miscategorized, has the wrong link, etc... please [open an issue](https://github.com/Cubeir/Minecraft-RTX-Bug-Tracking/issues) or [a pull request](https://github.com/Cubeir/Minecraft-RTX-Bug-Tracking/pulls).
 
+## Table of Contents
+
+- [🟥 Unresolved Minecraft bugs](#-unresolved)
+- [🟧 Bugs Mojang Won't Fix](#-resolved)
+- [🟨 Issues worked around by Vanilla RTX](#-fixed-by-vanilla-rtx)
+- [🟩 Resolved Fully](#-resolved)
+- [⚒️ Vanilla RTX Bug Tracking](#vanilla-rtx-bug-tracking)
+
 ## 🟥 Unresolved
 
 These issues have been reported on Mojira, regardless of confirmation status, they remain unresolved. (Sorted based on severity, from highest to lowest).  
