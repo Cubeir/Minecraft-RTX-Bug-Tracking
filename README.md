@@ -6,10 +6,10 @@ If a reported or known Minecraft RTX issue is missing from this list in particul
 
 ## Table of Contents
 
-- [🟥 Unresolved Minecraft bugs](#-unresolved)
-- [🟧 Bugs Mojang Won't Fix](#-resolved)
+- [🟥 Unresolved Issues](#-unresolved)
+- [🟧 Issues Mojang Won't Fix](#-resolved)
 - [🟨 Issues worked around by Vanilla RTX](#-fixed-by-vanilla-rtx)
-- [🟩 Resolved Fully](#-resolved)
+- [🟩 Resolved Issues](#-resolved)
 - [⚒️ Vanilla RTX Bug Tracking](#vanilla-rtx-bug-tracking)
 
 ## 🟥 Unresolved
