@@ -25,7 +25,6 @@ You will need to login or create an account to be able to vote.
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
 - [MCPE-230978](https://bugs.mojang.com/browse/MCPE/issues/MCPE-230978) - Redstone torches always render their alpha channel at full opacity with ray tracing
-- [MCPE-242595](https://bugs.mojang.com/browse/MCPE/issues/MCPE-242595) - Entities appear glossy with ray tracing because they use a wrong fallback PBR material.
 - [MCPE-227473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227473) - Underwater torch lacks point light (Education Edition)
 - [MCPE-105261](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105261) - Ray Tracing experiences render errors in certain scenes and conditions
 - [MCPE-105028](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105028) - No player shadows or reflections are visible in first person with Ray Tracing
@@ -151,6 +150,7 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 - [MCPE-135157](https://bugs.mojang.com/browse/MCPE/issues/MCPE-135157) - RTX had dark spots everywhere and light failed to spread from most blocks (fixed in Beta 1.17.30.22)
 - [MCPE-163622](https://bugs.mojang.com/browse/MCPE/issues/MCPE-163622) - Albedo colour arrays in texture sets displayed as completely black (fixed in Preview 1.19.60.20)
 - [MCPE-194870](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194870) - Most entity textures appear completely black with Ray Tracing
+- [MCPE-242595](https://bugs.mojang.com/browse/MCPE/issues/MCPE-242595) - Entities appear glossy with ray tracing because they use a wrong fallback PBR material.
 - [MCPE-140674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-140674) - Some devices that support RTX are occasionally marked as unsupported
 - [MCPE-166846](https://bugs.mojang.com/browse/MCPE/issues/MCPE-166846) - RTX textures can load incorrectly
 - [MCPE-166947](https://bugs.mojang.com/browse/MCPE/issues/MCPE-166947) - All RTX point lights were white (fixed in Preview 1.19.80.20)
