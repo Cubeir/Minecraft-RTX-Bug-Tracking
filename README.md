@@ -17,6 +17,7 @@ If a reported or known Minecraft RTX issue is missing from this list in particul
 These issues have been reported on Mojira, regardless of confirmation status, they remain unresolved. (Sorted based on severity, from highest to lowest).  
 You will need to login or create an account to be able to vote.
 
+- [MCPE-243629](https://bugs.mojang.com/browse/MCPE/issues/MCPE-243629) - Ray Tracing crashes the game every time it is used except after the very first time
 - [MCPE-194207](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194207) - Placing or breaking blocks causes surrounding blocks to flicker with Ray Tracing enabled
 - [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
 - [MCPE-183773](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183773) - Entity UV Animations do not work once RTX is enabled.
