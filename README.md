@@ -17,7 +17,6 @@ If a reported or known Minecraft RTX issue is missing from this list in particul
 These issues have been reported on Mojira, regardless of confirmation status, they remain unresolved. (Sorted based on severity, from highest to lowest).  
 You will need to login or create an account to be able to vote.
 
-- [MCPE-243629](https://bugs.mojang.com/browse/MCPE/issues/MCPE-243629) - Ray Tracing crashes the game every time it is used except after the very first time
 - [MCPE-194207](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194207) - Placing or breaking blocks causes surrounding blocks to flicker with Ray Tracing enabled
 - [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
 - [MCPE-183773](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183773) - Entity UV Animations do not work once RTX is enabled.
@@ -145,6 +144,7 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 - [MCPE-162107](https://bugs.mojang.com/browse/MCPE/issues/MCPE-162107) - Loading an RTX resource pack crashed the game (fixed in Preview 1.19.70.26)
 - [MCPE-152645](https://bugs.mojang.com/browse/MCPE/issues/MCPE-152645) - The engine switched to DX11 after quitting a world with RTX on, disabling DXR (fixed in Hotfix 1.18.31)
 - [MCPE-161517](https://bugs.mojang.com/browse/MCPE/issues/MCPE-161517) - RTX GPUs had worse performance than GTX GPUs (fixed in Release 1.19.80)
+- [MCPE-243629](https://bugs.mojang.com/browse/MCPE/issues/MCPE-243629) - Ray Tracing crashes the game every time it is used except after the very first time
 - [MCPE-145618](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145618) - Performance was poor during new world generation with Ray Tracing, also filed as MCPE-143156 (fixed in Hotfix 1.17.41)
 - [MCPE-111547](https://bugs.mojang.com/browse/MCPE/issues/MCPE-111547) - Held and dropped items with high-res textures caused an excessive performance drop with RTX (fixed in Preview 1.19.80.21)
 - [MCPE-113380](https://bugs.mojang.com/browse/MCPE/issues/MCPE-113380) - High-res resource packs fell back incorrectly on Beta and Stable even on supported hardware (fixed in Hotfix 1.19.81)
