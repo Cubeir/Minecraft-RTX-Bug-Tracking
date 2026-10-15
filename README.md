@@ -2,7 +2,7 @@ Below you will find a complete list of every known and reported Minecraft RTX is
 
 The issues are listed based on priority, if an issue you've encountered is missing from this list, and you believe it is related to the game, report it through Mojira, but if you think it is related to Vanilla RTX, or Vanilla RTX App, report it to Cubeir 
 
-If a reported or known Minecraft RTX issue is missing from this list in particular, a bug is miscategorized, has the wrong link, etc... please [open an issue](https://github.com/Cubeir/Minecraft-RTX-Bug-Tracking/issues) or [a pull request](https://github.com/Cubeir/Minecraft-RTX-Bug-Tracking/pulls).
+If a reported or known Minecraft RTX issue is missing from this list in particular, a bug is miscategorized, has the wrong link, etc... please [open an issue](https://github.com/vanilla-rtx/Minecraft-RTX-Bug-Tracking/issues) or [a pull request](https://github.com/vanilla-rtx/Minecraft-RTX-Bug-Tracking/pulls).
 
 ## Table of Contents
 
@@ -55,7 +55,7 @@ You will need to login or create an account to be able to vote.
 - [MCPE-219635](https://bugs.mojang.com/browse/MCPE/issues/MCPE-219635) - Marketplace packs override all other texture packs when used with Ray Tracing or Vibrant Visuals
 - [MCPE-181917](https://bugs.mojang.com/browse/MCPE/issues/MCPE-181917) - The world thumbnail shows the player's hand and held items when Ray Tracing is enabled
 - [MCPE-139002](https://bugs.mojang.com/browse/MCPE/issues/MCPE-139002) - Bows are darkened when Ray Tracing is on  (🟨Fixed in BetterRTX)
-- [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing (🟨Fixed with a custom LUT preset from [the app](https://github.com/Cubeir/Vanilla-RTX-App/))
+- [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing (🟨Fixed with a custom LUT preset from [the app](https://github.com/vanilla-rtx/Vanilla-RTX-App/))
 - [MCPE-104310](https://bugs.mojang.com/browse/MCPE/issues/MCPE-104310) - The sky occasionally becomes multicoloured with Ray Tracing on (Mojang could not reproduce, but reports continue)
 - [MCPE-126983](https://bugs.mojang.com/browse/MCPE/issues/MCPE-126983) - Blocks on the edge of clouds cause graphical glitches with Ray Tracing
 - [MCPE-159473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-159473) - Some areas of the world render incorrectly with Ray Tracing when Render Clouds is on
@@ -186,10 +186,10 @@ These issues should no longer happen in the most recent versions of Minecraft, b
 # Vanilla RTX Bug Tracking
 For issues related to the Vanilla RTX App, Vanilla RTX, or other related projects, visit their respective GitHub repositories and check the issues there.
 
-- [Vanilla RTX – Issues](https://github.com/Cubeir/Vanilla-RTX/issues)
+- [Vanilla RTX – Issues](https://github.com/vanilla-rtx/Vanilla-RTX/issues)
 
-- [Vanilla RTX App & RTX Reactor – Issues](https://github.com/Cubeir/Vanilla-RTX-App/issues)
+- [Vanilla RTX App & RTX Reactor – Issues](https://github.com/vanilla-rtx/Vanilla-RTX-App/issues)
 
-- [Vanilla RTX Add-ons & Extras – Issues](https://github.com/Cubeir/Vanilla-RTX-Extras/issues)
+- [Vanilla RTX Add-ons & Extras – Issues](https://github.com/vanilla-rtx/Vanilla-RTX-Extras/issues)
 
 You may also report issues directly through the [Vanilla RTX Discord server's](https://discord.gg/A4wv4wwYud) forum channel.
